@@ -463,7 +463,7 @@ footer h3 {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 400px) {
     .hidden {
         display: none;
     }
@@ -782,5 +782,9 @@ footer h3 {
 
     .cooperation__img {
         min-width: 560px;
+    }
+
+    .cooperation .btn__secondary-wrapper{
+        display: none;
     }
 }
